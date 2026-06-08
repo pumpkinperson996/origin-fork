@@ -89,3 +89,16 @@ src/zzz_od/telemetry/**/__pycache__/
 telemetry_export_*.json
 telemetry_report_*.json
 privacy_report_*.json
+
+# Local autorun deployment runtime artifacts
+.backup/
+*.lnk
+ZZZ-autorun/backup/
+ZZZ-autorun/logs/*
+!ZZZ-autorun/logs/.gitkeep
+ZZZ-autorun/scripts/__pycache__/
+.tools/*
+!.tools/AutoHotkey-v1.1.37.02/
+.tools/AutoHotkey-v1.1.37.02/*
+!.tools/AutoHotkey-v1.1.37.02/AutoHotkeyU64.exe
+!.tools/AutoHotkey-v1.1.37.02/license.txt
